@@ -14,5 +14,13 @@ def words2characters(words):
     example, if words==['hello', 1.234, True], then characters should be
     ['h', 'e', 'l', 'l', 'o', '1', '.', '2', '3', '4', 'T', 'r', 'u', 'e']
     """
-    return []
+    def words2characters(words):
+    characters = []
+    
+    for word in words:
+        word = str(word)
+        for char in word:
+            characters.append(char)
+    
+    return characters
 
